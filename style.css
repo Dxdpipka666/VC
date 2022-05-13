@@ -1,0 +1,155 @@
+.body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-weight: normal;
+  font-size: 16px;
+  font-family: "Courier Newursive";
+}
+a {
+  color: #0f141e;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: #c07bff;
+}
+a:visited {
+  color: #86898f;
+}
+
+.avatar {
+  border-radius: 12%;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  height: 250px;
+  width: 200px;
+}
+.info {
+  margin-top: 1px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-weight: bold;
+  font-style: italic;
+}
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+.info_text {
+  margin-left: 20px;
+  margin-top: -20px;
+}
+.info_text {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+.bg_color {
+  background: #dffffc;
+}
+.bg_color_2 {
+  background: #f8ebff;
+}
+.bg_color_3 {
+  background: #ddffda;
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.card h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 1px;
+}
+list {
+  padding: 0 20px;
+  list-style: none;
+}
+.list li {
+  color: #0f141e;
+  margin-bottom: 10px;
+}
+.table {
+  width: 100%;
+}
+.table h2 {
+  text-align: center;
+}
+.table td {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.table th {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.link_list {
+  list-style: none;
+  padding: 0;
+}
+.link_list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+.contact h2 {
+  text-align: center;
+}
+.form_group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+.form_group input,
+textarea {
+  resize: none;
+  width: 100%;
+  /* box-sizing: border-box; */
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.row {
+  margin-bottom: 20px;
+
+  display: flex;
+}
+.row > .form_group {
+  width: 50%;
+}
+.row > .form_group:first-child {
+  margin-right: 20px;
+}
+.btn {
+  display: inline-block;
+  background: #f5d8d8;
+  border-radius: 50px;
+  padding: 10px 20px;
+
+  margin: 10px 0px 25px;
+
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 500ms ease;
+}
+.btn:hover {
+  opacity: 0.7;
+  border-color: silver;
+  transform: scale(1.1);
+}
